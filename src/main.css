@@ -1,0 +1,47 @@
+:root{
+    --primary:rgba(192, 12, 48, 0.703);
+    --secondary: rgba(102, 124, 234, 0.65);
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    
+   
+    background: linear-gradient(135deg,var(--primary),var(--secondary)), url('./nei.jpg') no-repeat center center / cover;
+     
+}
+#app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    padding: 24px;
+    gap: 24px;
+ 
+ }
+ .note {
+    height: 200px;
+    background-color:aliceblue;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 7px rgb(0,0,0,0.15);
+    resize: none;
+    font-family: sans-serif;
+    font-family: 16px;
+    
+
+ }
+ .add-note{
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgb(0,0,0,0.1);
+    border-radius: 10px;
+    font-size: 120px;
+    color: rgb(0, 0,0,0.5);
+    cursor: pointer;
+ }
+ .add-note:hover{
+    background-color: rgba(0,0,0,0.2);
+
+ }
